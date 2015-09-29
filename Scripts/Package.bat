@@ -1,0 +1,1 @@
+::Realiza un clean y test en el perfil develop y un package en el perfil preproduction
