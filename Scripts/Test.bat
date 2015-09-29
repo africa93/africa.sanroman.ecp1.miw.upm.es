@@ -10,6 +10,5 @@ D:
 cd %workspace%
 
 echo ----------------------------------------
-call mvn clean test -Denviroment.type=develop
-
+call mvn -ff clean test 
 cmd /k
