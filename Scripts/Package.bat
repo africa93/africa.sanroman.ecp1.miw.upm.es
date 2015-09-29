@@ -9,9 +9,9 @@ D:
 cd %workspace%
 
 echo ----------------------------------------
-call mvn clean test -Denviroment.type=develop
+call mvn -Dmaven.test.skip=true package -Denviroment.type=preproduction
 
 ::Aqui se empaqueta en un jar
-call mvn package -Denvironment.type=preproduction
+
 cmd /k
 ::pause
